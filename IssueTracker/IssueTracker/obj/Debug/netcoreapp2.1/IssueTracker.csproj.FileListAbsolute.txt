@@ -12,3 +12,14 @@ C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\n
 C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.RazorTargetAssemblyInfo.cache
 C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.dll
 C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.pdb
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\InMemoryIssuesImplementation.dll
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\InMemoryLoggerImplementation.dll
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\InMemoryUsersImplementation.dll
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\InterfaceLibrary.dll
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\ModelLibrary.dll
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\InMemoryIssuesImplementation.pdb
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\InMemoryLoggerImplementation.pdb
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\InMemoryUsersImplementation.pdb
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\InterfaceLibrary.pdb
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\ModelLibrary.pdb
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.csproj.CopyComplete

@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "InMemoryLoggerImplementation/1.0.0": {
+        "dependencies": {
+          "InterfaceLibrary": "1.0.0"
+        },
+        "runtime": {
+          "InMemoryLoggerImplementation.dll": {}
+        }
+      },
+      "InterfaceLibrary/1.0.0": {
+        "dependencies": {
+          "ModelLibrary": "1.0.0"
+        },
+        "runtime": {
+          "InterfaceLibrary.dll": {}
+        }
+      },
+      "ModelLibrary/1.0.0": {
+        "runtime": {
+          "ModelLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InMemoryLoggerImplementation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InterfaceLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModelLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

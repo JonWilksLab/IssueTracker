@@ -11,6 +11,15 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Implementations\InMemoryIssuesImplementation\InMemoryIssuesImplementation.csproj" />
+    <ProjectReference Include="..\Implementations\InMemoryLoggerImplementation\InMemoryLoggerImplementation.csproj" />
+    <ProjectReference Include="..\Implementations\InMemoryUsersImplementation\InMemoryUsersImplementation.csproj" />
+    <ProjectReference Include="..\Interfaces\InterfaceLibrary\InterfaceLibrary.csproj" />
+    <ProjectReference Include="..\Models\ModelLibrary\ModelLibrary.csproj" />
   </ItemGroup>
 
 </Project>

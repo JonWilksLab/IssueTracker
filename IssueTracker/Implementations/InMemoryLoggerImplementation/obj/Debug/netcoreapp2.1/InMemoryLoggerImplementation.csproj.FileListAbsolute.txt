@@ -1,0 +1,14 @@
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\bin\Debug\netcoreapp2.1\InMemoryLoggerImplementation.deps.json
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\bin\Debug\netcoreapp2.1\InMemoryLoggerImplementation.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\bin\Debug\netcoreapp2.1\InMemoryLoggerImplementation.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\bin\Debug\netcoreapp2.1\InterfaceLibrary.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\bin\Debug\netcoreapp2.1\ModelLibrary.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\bin\Debug\netcoreapp2.1\InterfaceLibrary.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\bin\Debug\netcoreapp2.1\ModelLibrary.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\obj\Debug\netcoreapp2.1\InMemoryLoggerImplementation.csprojAssemblyReference.cache
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\obj\Debug\netcoreapp2.1\InMemoryLoggerImplementation.csproj.CoreCompileInputs.cache
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\obj\Debug\netcoreapp2.1\InMemoryLoggerImplementation.AssemblyInfoInputs.cache
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\obj\Debug\netcoreapp2.1\InMemoryLoggerImplementation.AssemblyInfo.cs
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\obj\Debug\netcoreapp2.1\InMemoryLoggerImplementation.csproj.CopyComplete
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\obj\Debug\netcoreapp2.1\InMemoryLoggerImplementation.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryLoggerImplementation\obj\Debug\netcoreapp2.1\InMemoryLoggerImplementation.pdb

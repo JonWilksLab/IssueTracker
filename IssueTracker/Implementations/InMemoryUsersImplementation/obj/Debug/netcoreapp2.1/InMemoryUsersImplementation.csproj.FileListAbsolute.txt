@@ -1,0 +1,14 @@
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\bin\Debug\netcoreapp2.1\InMemoryUsersImplementation.deps.json
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\bin\Debug\netcoreapp2.1\InMemoryUsersImplementation.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\bin\Debug\netcoreapp2.1\InMemoryUsersImplementation.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\bin\Debug\netcoreapp2.1\InterfaceLibrary.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\bin\Debug\netcoreapp2.1\ModelLibrary.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\bin\Debug\netcoreapp2.1\InterfaceLibrary.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\bin\Debug\netcoreapp2.1\ModelLibrary.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\obj\Debug\netcoreapp2.1\InMemoryUsersImplementation.csprojAssemblyReference.cache
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\obj\Debug\netcoreapp2.1\InMemoryUsersImplementation.csproj.CoreCompileInputs.cache
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\obj\Debug\netcoreapp2.1\InMemoryUsersImplementation.AssemblyInfoInputs.cache
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\obj\Debug\netcoreapp2.1\InMemoryUsersImplementation.AssemblyInfo.cs
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\obj\Debug\netcoreapp2.1\InMemoryUsersImplementation.csproj.CopyComplete
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\obj\Debug\netcoreapp2.1\InMemoryUsersImplementation.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Implementations\InMemoryUsersImplementation\obj\Debug\netcoreapp2.1\InMemoryUsersImplementation.pdb

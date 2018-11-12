@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using InMemoryLoggerImplementation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +27,13 @@ namespace IssueTracker
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            // Adding the Interface Implementations to the DI services.
+            // Would do this via config in the realworld to allow for the CI/CD pipeline to replace the implementations 
+            // based on the environment.
+            services.AddSingleton<InterfaceLibrary.ILogger, InMemoryLoggerImplementation.Logger>();
+            services.AddSingleton<InterfaceLibrary.IIssues, InMemoryIssuesImplementation.Issues>();
+            services.AddSingleton<InterfaceLibrary.IUsers, InMemoryUsersImplementation.Users>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

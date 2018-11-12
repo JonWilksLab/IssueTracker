@@ -1,0 +1,9 @@
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Models\ModelLibrary\bin\Debug\netcoreapp2.1\ModelLibrary.deps.json
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Models\ModelLibrary\bin\Debug\netcoreapp2.1\ModelLibrary.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Models\ModelLibrary\bin\Debug\netcoreapp2.1\ModelLibrary.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Models\ModelLibrary\obj\Debug\netcoreapp2.1\ModelLibrary.csprojAssemblyReference.cache
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Models\ModelLibrary\obj\Debug\netcoreapp2.1\ModelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Models\ModelLibrary\obj\Debug\netcoreapp2.1\ModelLibrary.AssemblyInfoInputs.cache
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Models\ModelLibrary\obj\Debug\netcoreapp2.1\ModelLibrary.AssemblyInfo.cs
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Models\ModelLibrary\obj\Debug\netcoreapp2.1\ModelLibrary.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Models\ModelLibrary\obj\Debug\netcoreapp2.1\ModelLibrary.pdb
