@@ -1,0 +1,17 @@
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\ControllerTests.deps.json
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\ControllerTests.runtimeconfig.json
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\ControllerTests.runtimeconfig.dev.json
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\ControllerTests.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\obj\Debug\netcoreapp2.1\ControllerTests.csprojAssemblyReference.cache
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\obj\Debug\netcoreapp2.1\ControllerTests.csproj.CoreCompileInputs.cache
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\obj\Debug\netcoreapp2.1\ControllerTests.AssemblyInfoInputs.cache
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\obj\Debug\netcoreapp2.1\ControllerTests.AssemblyInfo.cs
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\ControllerTests.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\IssueTracker.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\IssueTracker.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\obj\Debug\netcoreapp2.1\ControllerTests.csproj.CopyComplete
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\obj\Debug\netcoreapp2.1\ControllerTests.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\obj\Debug\netcoreapp2.1\ControllerTests.pdb

@@ -1,0 +1,14 @@
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\IssueTracker.deps.json
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\IssueTracker.runtimeconfig.json
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\IssueTracker.runtimeconfig.dev.json
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\IssueTracker.dll
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\bin\Debug\netcoreapp2.1\IssueTracker.pdb
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.csprojAssemblyReference.cache
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.csproj.CoreCompileInputs.cache
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.RazorAssemblyInfo.cache
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.RazorAssemblyInfo.cs
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.AssemblyInfoInputs.cache
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.AssemblyInfo.cs
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.RazorTargetAssemblyInfo.cache
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.dll
+C:\Users\wilksjx\Source\Repos\IssueTracker\IssueTracker\IssueTracker\obj\Debug\netcoreapp2.1\IssueTracker.pdb
