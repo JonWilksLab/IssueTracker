@@ -8915,12 +8915,17 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "InMemoryIssuesImplementation >= 1.0.0",
+      "InMemoryLoggerImplementation >= 1.0.0",
+      "InMemoryUsersImplementation >= 1.0.0",
+      "InterfaceLibrary >= 1.0.0",
       "IssueTracker >= 1.0.0",
       "MSTest.TestAdapter >= 1.3.2",
       "MSTest.TestFramework >= 1.3.2",
       "Microsoft.AspNetCore.Mvc.Core >= 2.1.1",
       "Microsoft.NET.Test.Sdk >= 15.8.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "ModelLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8955,8 +8960,23 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "C:\\Users\\wilksjx\\source\\repos\\IssueTracker\\IssueTracker\\Implementations\\InMemoryIssuesImplementation\\InMemoryIssuesImplementation.csproj": {
+              "projectPath": "C:\\Users\\wilksjx\\source\\repos\\IssueTracker\\IssueTracker\\Implementations\\InMemoryIssuesImplementation\\InMemoryIssuesImplementation.csproj"
+            },
+            "C:\\Users\\wilksjx\\source\\repos\\IssueTracker\\IssueTracker\\Implementations\\InMemoryLoggerImplementation\\InMemoryLoggerImplementation.csproj": {
+              "projectPath": "C:\\Users\\wilksjx\\source\\repos\\IssueTracker\\IssueTracker\\Implementations\\InMemoryLoggerImplementation\\InMemoryLoggerImplementation.csproj"
+            },
+            "C:\\Users\\wilksjx\\source\\repos\\IssueTracker\\IssueTracker\\Implementations\\InMemoryUsersImplementation\\InMemoryUsersImplementation.csproj": {
+              "projectPath": "C:\\Users\\wilksjx\\source\\repos\\IssueTracker\\IssueTracker\\Implementations\\InMemoryUsersImplementation\\InMemoryUsersImplementation.csproj"
+            },
+            "C:\\Users\\wilksjx\\source\\repos\\IssueTracker\\IssueTracker\\Interfaces\\InterfaceLibrary\\InterfaceLibrary.csproj": {
+              "projectPath": "C:\\Users\\wilksjx\\source\\repos\\IssueTracker\\IssueTracker\\Interfaces\\InterfaceLibrary\\InterfaceLibrary.csproj"
+            },
             "C:\\Users\\wilksjx\\source\\repos\\IssueTracker\\IssueTracker\\IssueTracker\\IssueTracker.csproj": {
               "projectPath": "C:\\Users\\wilksjx\\source\\repos\\IssueTracker\\IssueTracker\\IssueTracker\\IssueTracker.csproj"
+            },
+            "C:\\Users\\wilksjx\\source\\repos\\IssueTracker\\IssueTracker\\Models\\ModelLibrary\\ModelLibrary.csproj": {
+              "projectPath": "C:\\Users\\wilksjx\\source\\repos\\IssueTracker\\IssueTracker\\Models\\ModelLibrary\\ModelLibrary.csproj"
             }
           }
         }

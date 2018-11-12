@@ -15,3 +15,13 @@ C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bi
 C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\obj\Debug\netcoreapp2.1\ControllerTests.csproj.CopyComplete
 C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\obj\Debug\netcoreapp2.1\ControllerTests.dll
 C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\obj\Debug\netcoreapp2.1\ControllerTests.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\InMemoryIssuesImplementation.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\InMemoryLoggerImplementation.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\InMemoryUsersImplementation.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\InterfaceLibrary.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\ModelLibrary.dll
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\InMemoryIssuesImplementation.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\InMemoryLoggerImplementation.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\InMemoryUsersImplementation.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\InterfaceLibrary.pdb
+C:\Users\wilksjx\source\repos\IssueTracker\IssueTracker\Tests\ControllerTests\bin\Debug\netcoreapp2.1\ModelLibrary.pdb

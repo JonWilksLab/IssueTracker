@@ -5,10 +5,11 @@ using System.Threading.Tasks;
 using InterfaceLibrary;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ModelLibrary;
 
 namespace IssueTracker.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/users")]
     [ApiController]
     public class UsersController : ControllerBase
     {
@@ -21,33 +22,33 @@ namespace IssueTracker.Controllers
             _logger = logger;
         }
         // GET: api/Users
-        [HttpGet]
-        public IEnumerable<string> Get()
+        [HttpGet(Name = "GetAllUsers")]
+        public IEnumerable<User> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _users.GetUsers();
         }
 
         // GET: api/Users/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "GetUser")]
         public string Get(int id)
         {
             return "value";
         }
 
         // POST: api/Users
-        [HttpPost]
+        [HttpPost(Name = "PostUser")]
         public void Post([FromBody] string value)
         {
         }
 
         // PUT: api/Users/5
-        [HttpPut("{id}")]
+        [HttpPut("{id}", Name = "PutUser")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
         // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
+        [HttpDelete("{id}", Name ="DeleteUser")]
         public void Delete(int id)
         {
         }

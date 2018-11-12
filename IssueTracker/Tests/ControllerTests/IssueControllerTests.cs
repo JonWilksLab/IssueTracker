@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Linq;
 
 namespace ControllerTests
 {
@@ -8,7 +9,14 @@ namespace ControllerTests
         [TestMethod]
         public void CanGetAListOfAllIssues()
         {
-            Assert.Fail();
+            //Prepare
+            var issuesService = new InMemoryIssuesImplementation.Issues();
+            var loggerService = new InMemoryLoggerImplementation.Logger();
+            var controller = new IssueTracker.Controllers.IssuesController(issuesService, loggerService);
+            //Execure
+            var results = controller.Get();
+            //Test - The default in memory service will provide two Issues
+            Assert.AreEqual(2, results.ToList().Count);
         }
 
         [TestMethod]
