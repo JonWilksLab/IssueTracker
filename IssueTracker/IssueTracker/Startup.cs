@@ -48,6 +48,10 @@ namespace IssueTracker
                 app.UseHsts();
             }
 
+            //Added support for static files and default routing to access the index.html page.
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+
             app.UseHttpsRedirection();
             app.UseMvc();
         }

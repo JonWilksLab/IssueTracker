@@ -2,10 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <Compile Remove="wwwroot\bower_components\**" />
+    <Compile Remove="wwwroot\node_modules\**" />
+    <Content Remove="wwwroot\bower_components\**" />
+    <Content Remove="wwwroot\node_modules\**" />
+    <EmbeddedResource Remove="wwwroot\bower_components\**" />
+    <EmbeddedResource Remove="wwwroot\node_modules\**" />
+    <None Remove="wwwroot\bower_components\**" />
+    <None Remove="wwwroot\node_modules\**" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,74 @@
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html" />
+
+<dom-module id="api-service">
+    <template>
+        <style>
+            /* local DOM styles go here */
+            :host {
+                display: none;
+            }
+        </style>
+        <iron-ajax id="ajax0" handle-as="json" content-type="application/json" on-response="_handleResponse" on-error="_handleError"></iron-ajax>
+        <iron-ajax id="ajax1" handle-as="json" content-type="application/json" on-response="_handleResponse" on-error="_handleError"></iron-ajax>
+        <iron-ajax id="ajax2" handle-as="json" content-type="application/json" on-response="_handleResponse" on-error="_handleError"></iron-ajax>
+
+    </template>
+    <script>
+        class apiService extends Polymer.Element {
+            static get is() { return 'api-service'; }
+
+            _getFreeAjax() {
+                var c = this.shadowRoot.querySelectorAll("iron-ajax");
+                for (var x in c) {
+                    if (c[x].activeRequests.length < 1) {
+                        return c[x];
+                    }
+                }
+                return c[Math.floor(Math.random() * (c.length + 1))];
+            }
+
+            _issueSearch(callback) {
+                var ajax = this._getFreeAjax();
+
+                this.$.ajax0.url = "/api/issues/";
+                this.$.ajax0.body = '';
+                this.$.ajax0.method = 'GET';
+
+                var req = this.$.ajax0.generateRequest();
+                req.callback = callback;
+
+                return {
+
+                    cancel: function () {
+                        req.xhr.abort();
+                        req.callback = function () { };
+                    }
+                };
+            }
+
+            _saveIssue(data, callback) {
+                this.$.ajax0.url = "/api/issue/";
+                this.$.ajax0.body = data;
+                this.$.ajax0.method = 'POST';
+                var req = this.$.ajax0.generateRequest();
+                req.callback = callback;
+            }
+
+            _handleResponse(event, request) {
+                var results = request.response;
+                if (request.callback)
+                    request.callback(request.response, null);
+            }
+
+            _handleError(event, request) {
+                request.error.innermessage = request.request.statusText;
+                if (request.request.callback)
+                    request.request.callback(null, request.error);
+            }
+
+        }
+
+        window.customElements.define(apiService.is, apiService);
+    </script>
+
+</dom-module>

@@ -37,8 +37,9 @@ namespace IssueTracker.Controllers
 
         // POST: api/Issues
         [HttpPost(Name = "PostIssue")]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Issue value)
         {
+           _issues.UpdateIssue(value);
         }
 
         // PUT: api/Issues/5

@@ -1,0 +1,92 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="shared-styles.html">
+<dom-module id="my-view2">
+    <template>
+        <style include="shared-styles">
+
+            :host {
+                display: block;
+                padding: 10px;
+            }
+        </style>
+        <app-route route="[[route]]"
+                   pattern="/:id"
+                   data="{{routeData}}"></app-route>
+        <div class="card">
+            <div class="circle">2</div>
+            <h1>Issue Details</h1>
+            <paper-input id="id" tabindex="1" label="Issue Code" placeholder="Issue code is required" auto-validate required value="{{item.id}}" disabled on-keydown="_saveEnabled"></paper-input>
+            <paper-input id="title" tabindex="2" label="Title" placeholder="Title is required" auto-validate required value="{{item.title}}" on-keydown="_saveEnabled"></paper-input>
+            <paper-button tabindex="10" id="saveButton" class="x-scope paper-button-0" on-tap="_saveChanges" raised>Save</paper-button>
+
+
+
+        </div>
+    </template>
+    <script>
+        class MyView2 extends Polymer.Element {
+            static get is() { return 'my-view2'; }
+            static get properties() {
+                return {
+                    issues: {
+                        type: Object,
+                        notify: true
+                    },
+                    item: Object,
+
+                    route: Object,
+
+                    routeData: Object,
+
+                    loading: Boolean,
+                };
+            }
+            static get observers() {
+                return [
+                    '_itemChanged(item)',
+                    '_routeChanged(routeData)'
+                ]
+            }
+            _routeChanged(routeData) {
+                console.log(this.routeData.id);
+                this.loading = true;
+                this.item = this.issues.find(x => x.id == this.routeData.id);
+                if (this.item) {
+                    console.log(this.item.id);
+                }
+                else {
+                    this.item = [];
+                }
+                this.$.saveButton.disabled = true;
+                this.loading = false;
+            }
+            _itemChanged(item) {
+                if (!this.loading) {
+                    console.log("Changed");
+                    this.$.saveButton.disabled = false;
+                }
+            }
+            _saveEnabled() {
+                this.$.saveButton.disabled = false;
+
+            }
+            _saveChanges() {
+                this.dispatchEvent(new CustomEvent('interact', { detail: { action: "save", item: this.item } }));
+
+            }
+        }
+
+        window.customElements.define(MyView2.is, MyView2);
+    </script>
+</dom-module>
